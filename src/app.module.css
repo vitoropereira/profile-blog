@@ -1,0 +1,284 @@
+.header {
+  /* Cover */
+  position: absolute;
+  height: 296px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+
+  /* Base/Profile */
+
+  background: #0b1b2b;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+  /* Logo */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+
+  position: absolute;
+  width: 148px;
+  height: 98px;
+  left: calc(50% - 148px / 2);
+  top: 64px;
+}
+
+.card {
+  /* Profile */
+  position: absolute;
+  width: 864px;
+  height: 212px;
+  left: calc(50% - 864px / 2);
+  top: 208px;
+
+  /* Base/Profile */
+  background: #0b1b2b;
+  box-shadow: 0px 2px 28px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.avatarImage {
+  position: absolute;
+  width: 148px;
+  height: 148px;
+  left: 40px;
+  top: calc(50% - 148px / 2);
+
+  border-radius: 8px;
+}
+
+.cardContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.h1 {
+  /* name */
+
+  position: absolute;
+  width: 236px;
+  height: 31px;
+  left: 220px;
+  top: calc(50% - 31px / 2 - 50.5px);
+
+  /* Title/Title L */
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  /* or 31px */
+
+  /* Base/Title */
+
+  color: #e7edf4;
+}
+
+.link {
+  /* github */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 67px;
+  height: 19px;
+  right: 32px;
+  top: 40px;
+}
+
+.link span {
+  /* Label */
+
+  width: 47px;
+  height: 19px;
+
+  /* Components/Link */
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 160%;
+  /* or 19px */
+
+  text-transform: uppercase;
+
+  /* Brand/Blue */
+
+  color: #3294f8;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.icon {
+  /* Icon */
+
+  width: 12px;
+  height: 12px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.p {
+  /* bio */
+
+  position: absolute;
+  width: 612px;
+  height: 52px;
+  left: 220px;
+  top: 79px;
+
+  /* Text/Text M */
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  /* Base/Text */
+
+  color: #afc2d4;
+}
+
+.cardFooter {
+  /* info */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  position: absolute;
+  width: 393px;
+  height: 26px;
+  left: 220px;
+  top: calc(50% - 26px / 2 + 62px);
+}
+
+.userName {
+  /* username */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 111px;
+  height: 26px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.company {
+  /* company */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 106px;
+  height: 26px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.followers {
+  /* followers */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 128px;
+  height: 26px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.iconsFooter {
+  /* Icon */
+
+  width: 18px;
+  height: 18px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.footerText {
+  /* Rocketseat */
+
+  width: 96px;
+  height: 26px;
+
+  /* Text/Text M */
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+  /* Base/Subtitle */
+
+  color: #c4d4e3;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
